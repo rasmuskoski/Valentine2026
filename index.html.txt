@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+      
+      <div id="gif-container">
+        <img id="main-gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmNvZGp5N2RoM3duam5tMjIxdnBwMmFhd215dDc2dWs1ZHkyaTFnNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Zl7u48zLVFgLpRwq6f/giphy.gif" alt="Söpö gifi">
+      </div>
+
+      <h1>Will you be my Valentine? ❤️</h1>
+
+      <div class="nappi-alue">
+        <button id="yesBtn" onclick="vastausKyllä()">YES</button>
+        <button id="noBtn" onclick="vastausEi()">NO</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
